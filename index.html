@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <title>[Bài tập] Biến, kiểu dữ liệu và toán tử</title>
+</head>
+<body>
+<!--Tính điểm trung bình và điểm tổng-->
+<h1>Bài 1</h1>
+<table>
+    <tr>
+        <td>
+            <label for="physics">Vật lý</label><br>
+            <input type="text" id="physics" name="physics">
+        </td>
+        <td>
+            <label for="chemistry">Hoá học</label><br>
+            <input type="text" id="chemistry" name="chemistry">
+        </td>
+        <td>
+            <label for="biology">sinh học</label><br>
+            <input type="text" id="biology" name="biology">
+        </td>
+        <td class="button">
+            <button onclick="calpoint()">Tính điểm</button>
+        </td>
+    </tr>
+</table>
+<p id="avgpts">Điểm Trung bình:</p>
+<p id="totalpts">Điểm Tổng:</p>
+
+<!--Đổi C sang F-->
+<h1>Bài 2</h1>
+<table>
+    <tr>
+        <td>
+            <label><input type="text" id="celsius" name="celsius" placeholder="°C (Celsius)"></label>
+        </td>
+        <td class="button">
+            <button onclick="convertCtoF()">Convert</button>
+        </td>
+    </tr>
+</table>
+<p id="Fahrenheit">Result:</p>
+
+<!--Tính diện tích hình tròn-->
+<h1>Bài 3</h1>
+<table>
+    <tr>
+        <td>
+            <label><input type="text" id="radius" name="radius" placeholder="Radius (cm)"></label>
+        </td>
+        <td class="button">
+            <button onclick="calAreofcircle()">Tính</button>
+        </td>
+    </tr>
+</table>
+<p id="circlearea">Diện tích:</p>
+<p id="circlecircumference">Chu vi:</p>
+
+
+<script src="index.js">
+
+</script>
+</body>
+</html>
